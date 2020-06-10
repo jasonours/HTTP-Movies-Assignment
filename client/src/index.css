@@ -53,8 +53,12 @@ body {
   width: 75%;
   margin: 1rem auto;
 }
-.save-button {
-  position: absolute;
+
+.wrapper-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
   top: 25px;
   right: 25px;
   border: 1px solid grey;
